@@ -1,0 +1,11 @@
+{
+  "name": "lmdb",
+  "version": "0.9.70",
+  "repo": "tencherry10/lmdb",
+  "description": "lmdb packaged for clib",
+  "keywords": ["database", "lua"],
+  "license": "OpenLDAP",
+  "prepare": "make",
+  "prepared_src": ["liblmdb.a","liblmdb.so"],
+  "src": ["lmdb.h"]
+}
